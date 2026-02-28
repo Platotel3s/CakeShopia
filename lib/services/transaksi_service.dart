@@ -6,7 +6,7 @@ import 'package:shofy_management/services/price_service.dart';
 import '../models/model.dart';
 
 class TransaksiService {
-  static const String baseUrl = 'http://192.168.1.5/cake';
+  static const String baseUrl = 'http://localhost/cake';
   
   Future<List<Transaksi>>getTransaksi()async{
     try{

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 class LaporanService {
-  static const String baseUrl = 'http://192.168.1.5/cake';
+  static const String baseUrl = 'http://localhost/cake';
   Future<Map<String, dynamic>> getSemuaProduk() async {
     try {
       final response = await http.get(

@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/model.dart';
 
 class PriceService {
-  static const String baseUrl = 'http://192.168.1.5/cake';
+  static const String baseUrl = 'http://localhost/cake';
   Future<List<Prices>> getPrices() async {
     try {
       final response = await http.get(Uri.parse('$baseUrl/api_prices.php'));

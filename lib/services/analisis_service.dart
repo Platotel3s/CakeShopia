@@ -7,7 +7,7 @@ import 'package:shofy_management/services/price_service.dart';
 import 'package:shofy_management/services/transaksi_service.dart';
 
 class AnalisisService {
-  static const String baseUrl = 'http://192.168.1.5/cake';
+  static const String baseUrl = 'http://localhost/cake';
   Future<Map<String, dynamic>> getPenjualanHariIni() async {
     try {
       final response = await http.get(
