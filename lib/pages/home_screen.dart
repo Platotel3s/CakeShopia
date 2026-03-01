@@ -103,11 +103,11 @@ class HomeScreen extends StatelessWidget {
 
             Expanded(
               child: GridView.builder(
-                padding: EdgeInsets.all(9),
+                padding: EdgeInsets.all(16),
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2,
-                  crossAxisSpacing: 8,
-                  mainAxisSpacing: 8,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
                   childAspectRatio: 0.9,
                 ),
                 itemCount: menuItems.length,
