@@ -12,14 +12,14 @@ class MyApp extends StatelessWidget {
   @override
     Widget build(BuildContext context) {
       return MaterialApp( 
-          title: 'ShofyManagement',
+        title: 'ShofyManagement',
           theme: ThemeData(
             primaryColor: AppColor.primaryColor,
             visualDensity: VisualDensity.adaptivePlatformDensity,
             fontFamily: 'Poppins',
             ),
-          home: HomeScreen(),
-          debugShowCheckedModeBanner: false,
-          );
+        home: HomeScreen(),
+        debugShowCheckedModeBanner: false,
+      );
     }
 }
